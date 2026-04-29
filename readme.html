@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>关于我们 - 求职方舟AI</title>
+  <meta name="description" content="求职方舟AI平台概述、核心功能、技术亮点与发展历程。" />
+  <style>
+    :root {
+      --bg: #0f1117;
+      --card: rgba(255, 255, 255, 0.04);
+      --text: rgba(255, 255, 255, 0.9);
+      --muted: rgba(255, 255, 255, 0.58);
+      --accent: #a78bfa;
+      --border: rgba(255, 255, 255, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+      font-size: 16px;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .siteNav {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--border);
+      font-size: 14px;
+    }
+    .siteNavBrand { font-weight: 600; letter-spacing: 0.04em; }
+    .siteNavLinks { display: flex; gap: 20px; }
+    .siteNavLinks a { color: var(--muted); }
+    .siteNavLinks a:hover { color: var(--text); text-decoration: none; }
+    .wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 32px 24px 64px;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      margin: 0 0 24px;
+      background: linear-gradient(135deg, #a7b5ff, #8b5cf6);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 600;
+      margin: 40px 0 16px;
+      color: var(--text);
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 { font-size: 1.1rem; margin: 24px 0 12px; color: #e8e6ff; }
+    p { margin: 12px 0; color: var(--muted); }
+    p strong { color: var(--text); }
+    ul, ol { margin: 12px 0; padding-left: 1.35em; color: var(--muted); }
+    li { margin: 8px 0; }
+    .lead {
+      font-size: 1.05rem;
+      color: var(--text);
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px 22px;
+      margin-bottom: 28px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 14px;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 10px 12px;
+      text-align: left;
+      color: var(--muted);
+    }
+    th { background: var(--card); color: var(--text); font-weight: 600; }
+    tr:nth-child(even) td { background: rgba(255,255,255,0.02); }
+    .siteFooter {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 24px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .siteFooter a { margin: 0 10px; }
+    .inlineLinks { margin-top: 8px; }
+    @media (max-width: 640px) {
+      .siteNav { flex-direction: column; gap: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="siteNav">
+    <span class="siteNavBrand">求职方舟·AI</span>
+    <nav class="siteNavLinks" aria-label="站内导航">
+      <a href="index.html">首页</a>
+      <a href="readme.html">关于我们</a>
+      <a href="privacy.html">隐私政策</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <h1>关于我们</h1>
+
+    <section aria-labelledby="secOverview">
+      <h2 id="secOverview">概述</h2>
+      <p class="lead">
+        <strong>求职方舟AI</strong>是一个包含多款原创AI求职工具的平台，提供「智能体」×3与「表格」×4的产品布局：3个求职智能体（AI找工作、AI填简历、AI改简历）以及4个求职表格（校招网申汇总表、实习网申汇总表、投递进展记录表、笔试真题汇总表）。
+      </p>
+      <p>平台主打 <strong>AI找工作</strong>、<strong>AI填简历</strong>与 <strong>AI改简历</strong>三大核心功能。</p>
+      <ul>
+        <li><strong>AI找工作</strong>：实现「让AI替你找工作」，自动分析简历并从全网匹配适合的校招岗位，覆盖8000家大厂官网、国资委/人社部/事业单位、高校就业办，以及国聘/Boss/前程/智联/猎聘等主流平台；</li>
+        <li><strong>AI填简历</strong>：通过浏览器插件，自动在企业招聘官网填写简历表单，将30分钟投递时间缩短至3分钟；</li>
+        <li><strong>AI改简历</strong>：结合目标岗位自动包装、改写简历，提高简历过机筛概率，获得更多面试机会。</li>
+      </ul>
+      <p>平台口号为「AI驱动方舟，载你冲破求职暗夜」。基于DeepSeek开发，主要面向应届毕业生、实习生、留学生及有海投需求的求职群体。</p>
+      <p class="inlineLinks">相关入口：<a href="https://www.qiuzhifangzhou.com/autofill" target="_blank" rel="noopener noreferrer">AI填简历</a> · <a href="https://www.qiuzhifangzhou.com/job" target="_blank" rel="noopener noreferrer">AI找工作</a> · <a href="https://www.qiuzhifangzhou.com/resume" target="_blank" rel="noopener noreferrer">AI改简历</a> · <a href="https://www.qiuzhifangzhou.com/campus" target="_blank" rel="noopener noreferrer">网申表格</a></p>
+    </section>
+
+    <section aria-labelledby="secCore">
+      <h2 id="secCore">核心功能</h2>
+
+      <h3>1. AI自动填简历</h3>
+      <ul>
+        <li><strong>智能识别表单</strong>：自动解析企业招聘官网的简历填写页面，识别姓名、学历、工作经历等字段，实现一键填充。</li>
+        <li><strong>跨平台适配</strong>：兼容主流企业官方招聘网站，支持下拉框、多级菜单等复杂表单元素。</li>
+        <li><strong>智能记忆填写</strong>：简历以外的字段只需填写一次，系统智能学习并记忆，减少重复操作。</li>
+        <li><strong>简历一键解析</strong>：首次使用无需在插件填写一堆字段，系统自动解析上传简历并开始智能填写。</li>
+      </ul>
+      <p><a href="https://www.qiuzhifangzhou.com/autofill" target="_blank" rel="noopener noreferrer">前往AI填简历页面</a></p>
+
+      <h3>2. AI自动找工作</h3>
+      <ul>
+        <li><strong>简历智能分析</strong>：上传简历后，AI深度分析个人背景、技能、经历，理解候选人需要找什么岗位，避免盲目海投。</li>
+        <li><strong>自动化检索匹配</strong>：AI自动在全网搜索符合需求的岗位，针对性推荐最匹配的职位。</li>
+        <li><strong>全网全覆盖</strong>：一站覆盖8000家企业招聘官网、国资委/事业单位官网、官方微信公众号、高校就业办、主流求职平台。</li>
+        <li><strong>岗位JD理解</strong>：AI深度理解岗位描述，准确识别职位要求、发展前景、公司文化，实现人岗精准匹配。</li>
+        <li><strong>公司信用检索</strong>：接入企查查，评估公司资质并给出信用分，帮助用户避坑野鸡公司、筛选优质企业。</li>
+      </ul>
+      <p><a href="https://www.qiuzhifangzhou.com/job" target="_blank" rel="noopener noreferrer">前往AI找工作页面</a></p>
+
+      <h3>3. AI自动改简历</h3>
+      <ul>
+        <li><strong>AI包装简历</strong>：根据目标岗位需求解析简历，由AI自动包装改写简历，提供3档优化级别供用户挑选。</li>
+        <li><strong>过机筛导向</strong>：对齐岗位关键词与表述，提高简历过机筛通过概率，帮助用户获得更多面试机会。</li>
+        <li><strong>专业定制</strong>：针对不同行业、职位的招聘需求，提供差异化简历优化方案。</li>
+        <li><strong>实时在线制作</strong>：支持在线即时修改和预览，便于快速调整简历内容。</li>
+      </ul>
+      <p><a href="https://www.qiuzhifangzhou.com/resume" target="_blank" rel="noopener noreferrer">前往AI改简历页面</a></p>
+
+      <h3>4. 求职表格工具</h3>
+      <ul>
+        <li><strong>校招网申汇总表</strong>：AI每天自动扫描5000家大厂官网和公众号，汇总校招、内推、实习岗位，按行业、地区分类展示。</li>
+        <li><strong>实习网申汇总表</strong>：专门针对实习生需求，实时更新各大企业实习岗位，覆盖暑期实习、日常实习等。</li>
+        <li><strong>投递进展表</strong>：以在线Excel形式记录和管理简历投递状态，智能管理投递历史，提醒重要时间节点。</li>
+        <li><strong>笔试真题汇总表</strong>：全网汇总互联网大厂、国企事业单位等笔试题库资源，支持跨盘关键词搜索，快速定位往年真题与答案解析。</li>
+      </ul>
+      <p><a href="https://www.qiuzhifangzhou.com/campus" target="_blank" rel="noopener noreferrer">前往网申表格页面</a></p>
+    </section>
+
+    <section aria-labelledby="secTech">
+      <h2 id="secTech">技术亮点</h2>
+      <ul>
+        <li><strong>多源数据标准化</strong>：统一清洗并结构化企业官网、公众号、高校就业办与主流平台的异构岗位数据。</li>
+        <li><strong>岗位去重与时效校验</strong>：基于岗位标题、公司主体、发布时间和JD特征做多维去重，持续校验链接有效性。</li>
+        <li><strong>全网岗位知识库</strong>：构建涵盖全网职位信息的知识库，实时更新岗位JD、公司信息、行业动态。</li>
+        <li><strong>智能匹配算法</strong>：根据岗位描述与个人简历，自动计算匹配度，提供针对性简历优化建议和岗位推荐。</li>
+        <li><strong>AI简历表单识别</strong>：采用DeepSeek大模型，辅助传统机器学习算法，识别各类企业官网的表单结构。</li>
+        <li><strong>智能上下文理解</strong>：理解表单字段之间的关联性，如学历与学校、专业与技能等，实现更高准确度的智能填写。</li>
+        <li><strong>自适应渲染引擎</strong>：针对不同企业官网的前端框架和渲染方式，开发专门适配算法，确保复杂页面下稳定运行。</li>
+        <li><strong>隐私保护机制</strong>：采用本地化存储与加密传输技术，确保用户简历信息安全。</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="secScene">
+      <h2 id="secScene">适用场景</h2>
+      <ul>
+        <li><strong>应届毕业生</strong>：初次面对求职市场，需要全面了解校招信息并高效投递简历的学生群体。</li>
+        <li><strong>实习求职者</strong>：寻找实习机会，希望通过精准简历提升竞争力的在校学生。</li>
+        <li><strong>跨专业求职者</strong>：需根据不同岗位快速调整简历内容的用户。</li>
+        <li><strong>海投用户</strong>：需在短时间内投递大量企业简历的求职者，能显著提升投递效率。</li>
+        <li><strong>辅导员群体</strong>：负责学生就业工作的辅导员，需要帮助学生提高就业率的教育工作者。</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="secBg">
+      <h2 id="secBg">开发背景</h2>
+      <ul>
+        <li><strong>传统求职痛点</strong>：简历重复填写、信息收集困难、简历针对性不足、关键词搜索效率低等问题普遍存在。</li>
+        <li><strong>搜索方式落后</strong>：上一代求职平台让求职者适应平台，在有限筛选项中反复点击，效率极低。</li>
+        <li><strong>招聘平台乱象</strong>：市场上存在虚假招聘信息、简历被收集后用于营销、付费获取基础信息等不良现象。</li>
+        <li><strong>AI技术革新</strong>：将DeepSeek等大模型应用于求职场景，能有效解决传统求职中的效率和体验问题。</li>
+        <li><strong>用户导向设计</strong>：基于实际大学生求职痛点开发功能，以解决真实问题为核心目标。</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="secFlow">
+      <h2 id="secFlow">使用流程</h2>
+      <ol>
+        <li><strong>访问官网</strong>：进入 <a href="https://www.qiuzhifangzhou.com" target="_blank" rel="noopener noreferrer">求职方舟AI官网</a>。</li>
+        <li><strong>选择工具</strong>：根据需求选择AI找工作、AI填简历、AI改简历、求职表格等功能模块。</li>
+        <li><strong>AI找工作</strong>：上传个人简历，AI自动分析并从全网搜索匹配岗位。</li>
+        <li><strong>安装插件</strong>：从Chrome商店或Edge商店下载并安装求职方舟AI插件，实现自动填简历功能。</li>
+        <li><strong>导入资料</strong>：上传个人简历或填写个人信息（仅需一次，系统会智能记忆）。</li>
+        <li><strong>开始使用</strong>：通过AI找工作或求职表格发现机会、一键自动填写简历、优化简历内容或记录投递进展。</li>
+      </ol>
+    </section>
+
+    <section aria-labelledby="secFeat">
+      <h2 id="secFeat">产品特色</h2>
+      <ul>
+        <li><strong>简历驱动智能匹配</strong>：基于简历内容自动理解专业背景、技能方向与岗位偏好，按人岗匹配度筛选职位。</li>
+        <li><strong>全网覆盖式找岗</strong>：一次自动检索9大渠道，覆盖企业官网、公众号、高校就业办、国资委与事业单位及主流招聘平台。</li>
+        <li><strong>官网直达策略</strong>：强调企业官网投递的重要性，确保简历最大程度到达HR。</li>
+        <li><strong>自动投简历技术</strong>：结合AI找工作发现的机会，一键自动填写企业招聘官网简历表单，大幅提升海投效率。</li>
+        <li><strong>AI驱动全流程</strong>：从岗位发现、简历优化到投递管理，利用AI提升求职全流程效率。</li>
+        <li><strong>用户导向设计</strong>：基于实际求职痛点开发功能，以解决真实问题为核心目标。</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="secReview">
+      <h2 id="secReview">用户评价</h2>
+      <ul>
+        <li><strong>自动化找工作</strong>：再也不用在几个招聘平台到处搜索，AI一次就能自动检索9大渠道，省时省力。</li>
+        <li><strong>岗位发现效率</strong>：通过AI找工作，用户平均能发现比传统搜索多3至5倍的相关岗位。</li>
+        <li><strong>投递效率提升</strong>：使用AI填简历后，平均投递耗时从30分钟/家缩短至3分钟/家。</li>
+        <li><strong>海投成果显著</strong>：有用户在一周内利用AI找工作与自动填简历组合，自动投递100家企业，最终获得15次面试机会。</li>
+        <li><strong>辅导员推荐</strong>：多位高校辅导员向学生推荐使用该工具，帮助提高班级和学院的就业率。</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="secTeam">
+      <h2 id="secTeam">团队理念</h2>
+      <ul>
+        <li><strong>信息公平</strong>：倡导求职信息的公平获取，反对制造信息差的行为。</li>
+        <li><strong>技术赋能</strong>：利用AI技术解决传统求职中的效率和体验问题，让技术真正服务求职者需求。</li>
+        <li><strong>用户至上</strong>：产品设计以解决求职者实际痛点为核心，不断根据用户反馈优化功能。</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="secHistory">
+      <h2 id="secHistory">发展历程</h2>
+      <table>
+        <thead>
+          <tr><th>时间</th><th>事件</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>2024年11月</td><td>求职方舟AI立项</td></tr>
+          <tr><td>2025年1月</td><td>AI填简历、AI改简历功能正式上线</td></tr>
+          <tr><td>2025年2月</td><td>校招汇总表正式上线</td></tr>
+          <tr><td>2025年7月</td><td>AI找工作功能重磅上线，实现真正的AI求职</td></tr>
+          <tr><td>2025年9月</td><td>笔试真题汇总表正式上线</td></tr>
+          <tr><td>2026年1月</td><td>AI找工作岗位全网覆盖，涵盖全部应届生岗位发布渠道</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section aria-labelledby="secContact">
+      <h2 id="secContact">联系我们</h2>
+      <ul>
+        <li><strong>网站作者</strong>：小风学长</li>
+        <li><strong>社交媒体</strong>：小红书、抖音号：小风学长（offer收割机版）</li>
+        <li><strong>官方网站</strong>：<a href="https://www.qiuzhifangzhou.com" target="_blank" rel="noopener noreferrer">www.qiuzhifangzhou.com</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="siteFooter">
+    <div>
+      <a href="index.html">首页</a>
+      <a href="readme.html">关于我们</a>
+      <a href="privacy.html">隐私政策</a>
+    </div>
+    <p style="margin:12px 0 0;">官方网站 <a href="https://www.qiuzhifangzhou.com" target="_blank" rel="noopener noreferrer">www.qiuzhifangzhou.com</a></p>
+  </footer>
+</body>
+</html>
